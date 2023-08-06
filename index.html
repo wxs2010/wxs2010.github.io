@@ -7,7 +7,7 @@ body {
    display: flex;
    align-items: center;
    justify-content: center;
-   background-color: rgba(0, 0, 0, 0.5); /* 将背景颜色调为半透明 */
+   background-color: rgba(0, 0, 0, 0.5);
    background-image: url('bg.png');  
    background-repeat: repeat;
    height: 100vh;
@@ -17,11 +17,14 @@ body {
 
 .container {
   text-align: center;
+  margin-top: 50px;
 }
 
 h1 {
   margin: 0;
-  margin-bottom: 20px;
+  margin-bottom: 100px; /* 向上移动文字 */
+  font-size: 36px; /* 增大文字大小 */
+  transform: scale(2);
 }
 
 button {
